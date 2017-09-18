@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/vigge/Documents/Skola/DeepLearning/Projekt/Cifar10/cifar10-classifier.tfl"
+all_model_checkpoint_paths: "/home/vigge/Documents/Skola/DeepLearning/Projekt/Cifar10/cifar10-classifier.tfl"

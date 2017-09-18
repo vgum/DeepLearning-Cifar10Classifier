@@ -1,0 +1,56 @@
+#img_aug.add_random_90degrees_rotation(rotations=[0,1,2,3])
+#img_aug.add_random_blur()
+#img_aug.add_random_crop((24,24))
+#img_aug.add_random_flip_leftright()
+#img_aug.add_random_flip_updown()
+#img_aug.add_random_rotation(max_angle=25.)
+
+90
+blur 
+crop 
+flipLR
+flipUD 
+rotation
+
+90, blur
+90, crop
+90, flipLR
+90, flipUD
+90, rotation
+blur, crop
+blur, flipLR
+blur, flipUD
+blur, rotation
+crop, flipLR
+crop, flipUD
+crop, rotation
+flipLR, flipUD
+flipLR, rotation
+flipUD, rotation
+
+90, blur, crop
+90, blur, flipLR
+90, blur, flipUD
+90, blur, rotation
+90, crop, flipLR
+90, crop, flipUD
+90, crop, rotation
+90, flipLR, flipUD
+90, flipLR, rotation
+90, flipUD, rotation
+blur, 90, 
+
+
+
+
+
+
+blur, crop, flipLR
+blur, crop, flipUD
+blur, crop, rotation
+crop, flipLR, flipUD
+crop, flipLR, rotation
+flipLR, flipUD, rotation
+flipLR, flipUD, blur
+flipUD, rotation, blur
+flipUD, rotation, crop
